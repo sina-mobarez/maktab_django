@@ -74,15 +74,15 @@ WSGI_APPLICATION = 'core.wsgi.application'
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
 
+
 DATABASES = {
-        'default': {
+    'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'your_db_name',
         'USER': 'your_db_user',
         'PASSWORD': 'your_db_password',
         'HOST': 'localhost',
         'PORT': '5432',
-        'hello':'ds'
     }
 }
 
